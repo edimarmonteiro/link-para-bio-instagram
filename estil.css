@@ -1,0 +1,82 @@
+/*Para tira as mudanças altomaticas do google
+assim você mesmo faz as mudanças no conteudo/texto*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    /*Para tira a linha padrão do link*/
+    text-decoration: none;
+}
+
+body{
+    background-color: darkslategray;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+        
+    /*Para a magem ficar azul e eu poder ver*/
+    /*border: royalblue solid 3px;*/
+    width: 300px;
+    text-align: center;
+    margin: 60px auto;
+    /*background-color: aliceblue;*/
+}
+
+.img{
+    max-width: 100%;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    border: darkblue solid 6px;
+    /*Espaço entre a borda e a foto*/
+    padding: 3px;
+
+}
+
+ul{
+    list-style: none;
+    margin: 48px 0px;
+}
+
+h1{
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 32px;
+    color: #00082F;
+}
+
+ul li a {
+    height: 53px;
+    border: 1px solid blue;
+    /*para o quadrado oucupa 100% da caixa/div*/
+    display: flex;
+    align-items: center;
+    /*colocar o conteudo no centro com seus proprios cauculos*/
+    justify-content: center;
+    background-color: darkblue;
+    color: aliceblue;
+    /*Para transforma o texto em caixa alta*/
+    text-transform: uppercase;
+    /*Para separa os links/magem*/
+    margin-bottom: 16px;
+    border-radius: 9px;
+    /*Para o corre a transição/troca de cor
+    em 400 milesegundo*/
+    transition: background 400ms;
+}
+
+/*Pseudo-class*/
+ul li a:hover{
+    /*background: #364FC7;*/
+    background: coral;
+}
+
+footer{
+    font-weight: 500;
+    font-size: 13px;
+    color: #00082F;
+    
+}
